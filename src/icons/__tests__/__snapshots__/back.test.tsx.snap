@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icons -> Back should render with a custom style 1`] = `
+<RNSVGSvgView
+  align="xMidYMid"
+  bbHeight="30"
+  bbWidth="30"
+  fill="none"
+  focusable={false}
+  height={30}
+  meetOrSlice={0}
+  minX={0}
+  minY={0}
+  style={
+    [
+      {
+        "backgroundColor": "transparent",
+        "borderWidth": 0,
+      },
+      {
+        "flex": 0,
+        "height": 30,
+        "width": 30,
+      },
+    ]
+  }
+  vbHeight={267}
+  vbWidth={375}
+  width={30}
+>
+  <RNSVGGroup
+    fill={null}
+    propList={
+      [
+        "fill",
+      ]
+    }
+  >
+    <RNSVGPath
+      d="M0 0H375V267H0V0Z"
+      fill={
+        {
+          "payload": 4294901760,
+          "type": 0,
+        }
+      }
+      propList={
+        [
+          "fill",
+        ]
+      }
+    />
+  </RNSVGGroup>
+</RNSVGSvgView>
+`;
+
+exports[`Icons -> Back should render with a normal style 1`] = `
+<RNSVGSvgView
+  align="xMidYMid"
+  bbHeight="267"
+  bbWidth="375"
+  fill="none"
+  focusable={false}
+  height={267}
+  meetOrSlice={0}
+  minX={0}
+  minY={0}
+  style={
+    [
+      {
+        "backgroundColor": "transparent",
+        "borderWidth": 0,
+      },
+      {
+        "flex": 0,
+        "height": 267,
+        "width": 375,
+      },
+    ]
+  }
+  vbHeight={267}
+  vbWidth={375}
+  width={375}
+>
+  <RNSVGGroup
+    fill={null}
+    propList={
+      [
+        "fill",
+      ]
+    }
+  >
+    <RNSVGPath
+      d="M0 0H375V267H0V0Z"
+      fill={
+        {
+          "payload": 4284621968,
+          "type": 0,
+        }
+      }
+      propList={
+        [
+          "fill",
+        ]
+      }
+    />
+  </RNSVGGroup>
+</RNSVGSvgView>
+`;

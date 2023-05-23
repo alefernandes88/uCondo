@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components -> Header Navigator should render with a icon 1`] = `
+<View
+  style={
+    {
+      "borderBottomLeftRadius": 50,
+      "borderBottomRightRadius": 50,
+      "borderTopLeftRadius": 50,
+      "borderTopRightRadius": 50,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 10,
+      }
+    }
+    testID="header-action-button"
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight="16"
+      bbWidth="20"
+      fill="none"
+      focusable={false}
+      height={16}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        [
+          {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          {
+            "flex": 0,
+            "height": 16,
+            "width": 20,
+          },
+        ]
+      }
+      vbHeight={16}
+      vbWidth={20}
+      width={20}
+    >
+      <RNSVGGroup
+        fill={null}
+        propList={
+          [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGPath
+          d="M19.375 0.453125H17.7367C17.507 0.453125 17.2891 0.558594 17.1484 0.739062L7.48517 12.9805L2.85157 7.10938C2.78148 7.02038 2.69214 6.94842 2.59025 6.8989C2.48836 6.84937 2.37658 6.82357 2.26329 6.82344H0.625013C0.467982 6.82344 0.381263 7.00391 0.477357 7.12578L6.89689 15.2586C7.19689 15.6383 7.77345 15.6383 8.07579 15.2586L19.5227 0.753125C19.6188 0.633594 19.532 0.453125 19.375 0.453125Z"
+          fill={
+            {
+              "payload": 4294967295,
+              "type": 0,
+            }
+          }
+          propList={
+            [
+              "fill",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>
+</View>
+`;

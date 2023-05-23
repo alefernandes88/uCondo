@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components -> Container should render with correct style 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F0EDF5",
+      "borderBottomLeftRadius": 0,
+      "borderBottomRightRadius": 0,
+      "borderTopLeftRadius": 24,
+      "borderTopRightRadius": 24,
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingBottom": 18,
+      "paddingLeft": 22,
+      "paddingRight": 22,
+      "paddingTop": 18,
+    }
+  }
+>
+  <Text>
+    Any Children
+  </Text>
+</View>
+`;

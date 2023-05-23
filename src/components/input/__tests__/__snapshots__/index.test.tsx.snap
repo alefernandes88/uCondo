@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components -> Input should render with a disabled style 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#6A6A6A",
+        "fontFamily": "Rubik_500Medium",
+        "fontSize": 15,
+        "marginBottom": 2,
+      }
+    }
+  >
+    Some label
+  </Text>
+  <View
+    isDisabled={true}
+    style={
+      {
+        "backgroundColor": "#d7d7d7",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+      }
+    }
+  >
+    <TextInput
+      focusable={false}
+      onChangeText={[Function]}
+      style={
+        {
+          "color": "#777777",
+          "fontSize": 15,
+          "paddingBottom": 12,
+          "paddingLeft": 17,
+          "paddingRight": 17,
+          "paddingTop": 12,
+        }
+      }
+      testID="input-field"
+      value="Some value"
+    />
+  </View>
+</View>
+`;
+
+exports[`Components -> Input should render with a normal style 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#6A6A6A",
+        "fontFamily": "Rubik_500Medium",
+        "fontSize": 15,
+        "marginBottom": 2,
+      }
+    }
+  >
+    Some label
+  </Text>
+  <View
+    isDisabled={false}
+    style={
+      {
+        "backgroundColor": "#FFF",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+      }
+    }
+  >
+    <TextInput
+      focusable={true}
+      onChangeText={[Function]}
+      style={
+        {
+          "color": "#777777",
+          "fontSize": 15,
+          "paddingBottom": 12,
+          "paddingLeft": 17,
+          "paddingRight": 17,
+          "paddingTop": 12,
+        }
+      }
+      testID="input-field"
+      value="Some value"
+    />
+  </View>
+</View>
+`;
+
+exports[`Components -> Select should render disabled style 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#6A6A6A",
+        "fontFamily": "Rubik_500Medium",
+        "fontSize": 15,
+        "marginBottom": 2,
+      }
+    }
+  >
+    Some label
+  </Text>
+  <View
+    isDisabled={true}
+    style={
+      {
+        "backgroundColor": "#d7d7d7",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+      }
+    }
+  >
+    <View>
+      <RNCPicker
+        items={
+          [
+            {
+              "label": "Item 1",
+              "testID": "select-item-1}",
+              "textColor": undefined,
+              "value": 1,
+            },
+            {
+              "label": "Item 2",
+              "testID": "select-item-2}",
+              "textColor": undefined,
+              "value": 2,
+            },
+          ]
+        }
+        numberOfLines={1}
+        onChange={[Function]}
+        selectedIndex={0}
+        style={
+          [
+            {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+        testID="select-field"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Components -> Select should render normal style 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#6A6A6A",
+        "fontFamily": "Rubik_500Medium",
+        "fontSize": 15,
+        "marginBottom": 2,
+      }
+    }
+  >
+    Some label
+  </Text>
+  <View
+    isDisabled={false}
+    style={
+      {
+        "backgroundColor": "#FFF",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+      }
+    }
+  >
+    <View>
+      <RNCPicker
+        items={
+          [
+            {
+              "label": "Item 1",
+              "testID": "select-item-1}",
+              "textColor": undefined,
+              "value": 1,
+            },
+            {
+              "label": "Item 2",
+              "testID": "select-item-2}",
+              "textColor": undefined,
+              "value": 2,
+            },
+          ]
+        }
+        numberOfLines={1}
+        onChange={[Function]}
+        selectedIndex={0}
+        style={
+          [
+            {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+        testID="select-field"
+      />
+    </View>
+  </View>
+</View>
+`;

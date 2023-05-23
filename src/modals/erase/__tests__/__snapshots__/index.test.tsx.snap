@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icons -> Back should render with a normal style 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0,0,0,0.2)",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+        "opacity": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 50,
+        "paddingRight": 50,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderBottomLeftRadius": 16,
+          "borderBottomRightRadius": 16,
+          "borderTopLeftRadius": 16,
+          "borderTopRightRadius": 16,
+          "height": 280,
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight="40"
+        bbWidth="40"
+        fill="none"
+        focusable={false}
+        height={40}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            {
+              "flex": 0,
+              "height": 40,
+              "width": 40,
+            },
+          ]
+        }
+        vbHeight={20}
+        vbWidth={20}
+        width={40}
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M2.5 5H4.16667H17.5"
+            propList={
+              [
+                "stroke",
+                "strokeWidth",
+                "strokeLinecap",
+                "strokeLinejoin",
+              ]
+            }
+            stroke={
+              {
+                "payload": 4294928000,
+                "type": 0,
+              }
+            }
+            strokeLinecap={1}
+            strokeLinejoin={1}
+            strokeWidth="1"
+          />
+          <RNSVGPath
+            d="M6.66668 5.00002V3.33335C6.66668 2.89133 6.84227 2.4674 7.15484 2.15484C7.4674 1.84228 7.89132 1.66669 8.33335 1.66669H11.6667C12.1087 1.66669 12.5326 1.84228 12.8452 2.15484C13.1578 2.4674 13.3333 2.89133 13.3333 3.33335V5.00002M15.8333 5.00002V16.6667C15.8333 17.1087 15.6578 17.5326 15.3452 17.8452C15.0326 18.1578 14.6087 18.3334 14.1667 18.3334H5.83335C5.39132 18.3334 4.9674 18.1578 4.65483 17.8452C4.34227 17.5326 4.16668 17.1087 4.16668 16.6667V5.00002H15.8333Z"
+            propList={
+              [
+                "stroke",
+                "strokeWidth",
+                "strokeLinecap",
+                "strokeLinejoin",
+              ]
+            }
+            stroke={
+              {
+                "payload": 4294928000,
+                "type": 0,
+              }
+            }
+            strokeLinecap={1}
+            strokeLinejoin={1}
+            strokeWidth="1"
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        style={
+          {
+            "marginBottom": 20,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#6C6C80",
+              "fontFamily": "Rubik_400Regular",
+              "fontSize": 15,
+              "marginBottom": 5,
+            }
+          }
+        >
+          Deseja excluir a conta
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#6C6C80",
+              "fontFamily": "Rubik_700Bold",
+              "fontSize": 15,
+            }
+          }
+        >
+          2
+           - 
+          Account
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "gap": 10,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#FFF",
+                "color": "#FF6680",
+                "paddingBottom": 10,
+                "paddingLeft": 25,
+                "paddingRight": 25,
+                "paddingTop": 10,
+              }
+            }
+            type="secondary"
+          >
+            <Text
+              style={
+                {
+                  "color": "#FF6680",
+                }
+              }
+              type="secondary"
+            >
+              Não!
+            </Text>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#FF6680",
+                "borderBottomLeftRadius": 100,
+                "borderBottomRightRadius": 100,
+                "borderTopLeftRadius": 100,
+                "borderTopRightRadius": 100,
+                "paddingBottom": 10,
+                "paddingLeft": 25,
+                "paddingRight": 25,
+                "paddingTop": 10,
+              }
+            }
+            type="primary"
+          >
+            <Text
+              style={
+                {
+                  "color": "#FFF",
+                }
+              }
+              type="primary"
+            >
+              Com certeza
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
